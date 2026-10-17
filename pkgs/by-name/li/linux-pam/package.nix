@@ -5,7 +5,7 @@
   fetchFromGitHub,
   fetchpatch,
   flex,
-  db4,
+  db,
   gettext,
   ninja,
   audit,
@@ -86,7 +86,7 @@ stdenv.mkDerivation (finalAttrs: {
   ];
 
   buildInputs = [
-    db4
+    db
     libxcrypt
     bash
   ]
